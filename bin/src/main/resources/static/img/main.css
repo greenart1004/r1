@@ -1,0 +1,177 @@
+
+/*  1 title ====================================================================================================================== */
+/* #cont_nav {background-color: #f6fdff;} */
+.cont_tit1 {background-color: rgba(164, 189, 245, 0.973); height: 150px;}
+/* #cont_ban {background-color: #dceff7;}
+#cont_cont {background-color: #f6fdff;} */
+
+
+/* 2 navbar ====================================================================================================================== */
+nav > a{ font-weight: bold;
+}
+
+.mpaa{
+    /* background: rgb(197, 194, 194); */
+    background-color: #3399cc;
+    color: #ffffff;
+}
+
+
+/* 3 컨텐츠 레이아웃 ================================================================================================= */
+#cont_nav {background-color: #f6fdff;}
+#cont_tit {background-color: #EAF7FD; background: rgba(154, 216, 244, 0.2); /* ie9부터 적용*/}
+#cont_ban {background-color: #dceff7;}
+#cont_cont {background-color: #f6fdff;}
+
+/* 전체 메뉴 */
+/* .nav {overflow: hidden;} */
+.nav > div {float: left;} 
+/* .nav > div:last-child {width: 20%;} ie9부터 사용가능 */
+.nav > div h3 {font-size: 18px; color:#25a2d0; margin-bottom: 5px; padding: 0;     }
+.nav > div ul {padding: 0; margin: 0;}
+.nav > div ul li {float: left;}
+.nav > div.last ul li {width: 100%;}
+/* .nav > div ul li a:hover {text-decoration: underline;} */
+
+
+/* 7 Categories ================================================================================================================*/
+
+.title { 
+    font-size: 500px;
+    color: blue;
+    border: black;
+
+}
+
+/* 7 Sliders ================================================================================================================*/
+
+.Sliders{
+    width: 230px;
+    
+
+}
+
+.Slider{}
+
+.Slider1{
+     width: 230px;
+    height: 300px;
+
+
+}
+.li1{
+    width: 300px;
+height: 300px;
+
+}
+.Slider1 ul li img{
+    display: inline-block;
+    padding: 1px;
+    width: 100px;
+    height: auto;
+
+}
+.Slider2{}
+
+
+/* products */
+.products {padding: 60px 0 70px; }
+/* .products h2 {font-size: 26px; text-align: center; padding-bottom: 30px;} */
+.products .products_box {overflow: hidden; }
+/* .products .products_box .column {float: left; width: 320px; height:300px; margin:0 10px 20px 10px; } */
+.products .products_box .column a:hover {text-decoration: none;}
+.products .products_box .column h3 {font-size: 16px; margin-top: 20px;}
+.products .products_box .column a:hover h3 {text-decoration: underline; color: #222;}
+.products .products_box .column p {color: #555; margin-top: 12px;}
+
+
+
+/* 7 볼랜드 툴로 3D 텍스트 만들기 ================================================================================================================*/
+.item-lists{
+    width: auto;
+    /* width: 100%;
+    max-width: 375px; */
+    border: 1px solid rgb(177, 154, 154);
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.item-lists > h1 {
+    font-size: 30px;
+    padding: 20px ;
+    margin: 12px 0;
+    border-bottom: 1px solid #d0d0d0;
+    color: rgb(9, 13, 243);
+}
+
+.item{
+    border-radius: 8px;
+    margin-left: 7%;
+    /* padding: 12px; */
+    transition: 0.3s;
+}
+
+.item:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0,.1);
+}
+
+.item img{
+    float:left;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+.item h2{
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.clear{
+    clear: both;
+}
+
+
+/* 8 footer =====================================================================================================================================*/
+
+/* 푸터 */
+.footer {padding: 25px 0; text-align: center;}
+.footer ul {margin-bottom: 20px;}
+.footer li {position: relative; display: inline; padding: 0 7px 0 10px;}
+.footer li:before {content: ''; width: 1px; height: 12px; background: #ccc; position: absolute; left: 0; top: 2px;}
+.footer li:first-child:before {width: 0; height: 0;}
+.footer .w3c {margin-top: 15px;}
+
+
+/* =============참고용================================================================================================= */
+/* =============참고용================================================================================================= */
+/* =============참고용================================================================================================= */
+#aaaaa{
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+.aaaaa:nth-child(2n-1){
+    boarder : 10px solid red;
+}
+
+.aaaaa:nth-child(1){
+    boarder : 10px solid red;
+    top:0;
+    left: 0;
+    z-index: 0;
+}
+.aaaaa:nth-child(2){
+    boarder : 10px solid red;
+    top:0;
+    left: 0;
+    z-index:1;
+}
+.aaaaa:nth-child(3){
+    boarder : 10px solid red;
+    top:0;
+    left: 0;
+    z-index: 2;
+}
