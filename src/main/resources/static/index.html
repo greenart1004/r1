@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="ko">
-<head>
+<html lang="ko"  xmlns:th="http://www.thymeleaf.org">
+<head >
     <meta charset="UTF-8">
     
     <meta name="naver-site-verification" content="54be4e23d9d2124b730c724c538ca2a9641c1b4e" />
@@ -50,22 +50,49 @@
     	integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" 
     	crossorigin="anonymous">
     </script>
-
-<!--    <link rel="stylesheet" href="/css/reset.css" type="text/css">-->
-  <!--  <link rel="stylesheet" href="/css/main.css" type="text/css">-->
     <link rel="stylesheet" href="/css/index1.css">
+    <link rel="stylesheet" href="/css/starter.css" >
 
 </head>
 <body>
+ <nav class="navbar navbar-expand-md navbar-dark bg-success " >
+     
+        <a class="navbar-brand" href="#">BlingG</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+	            <ul class="navbar-nav mr-auto">
+		                <li class="nav-item " >
+		                    <a class="nav-link" href="#" >Home </a>
+		                </li>
+		                <li class="nav-item" >
+		                    <a class="nav-link" href="/board/list" >게시판</a>
+		                </li> 
+<!--						<li class="nav-item" >
+		                	<a class="nav-link" href="#" >STYLEC</a>
+		                </li> 
+		                <li class="nav-item" >
+		                	<a class="nav-link" href="#" >Q&A</a>
+		                </li> -->
+	            </ul>
+        </div>
+        
+    </nav><br><br><br>
 
 <!-- 1 홈 bar ================================================ */ -->
-<div class="parent">
+<!-- <div class="parent">
     <div class="child">BlingG</div>
-    <div class="child">홈</div>
-    <div class="child">STYLEC</div>
-    <div class="child">게시판</div>
-    <div class="child"> “파트너스 활동을 통해 일정액의 수수료를 제공받을 수 있음"</div>
-</div><br><br>
+    <div class="child">Home</div>
+    <div class="child">
+    	<a href="stylecindex.html">STYLEC</a>
+   </div>
+    <div class="child">
+      	<a href="/board/list"> 게시판 </a>
+    </div>
+</div><br><br> -->
 <!--//1 홈 bar  -->
 
 <!-- 2  ================================================ */ -->
@@ -489,13 +516,17 @@
 </div>
 
 
-
-
-
-
-
-
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
 
 
 </body>
