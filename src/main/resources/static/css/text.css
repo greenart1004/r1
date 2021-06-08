@@ -1,0 +1,56 @@
+
+	@font-face {
+	    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.1/KOTRA_BOLD-Bold.woff') format('woff');
+	    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff') format('woff');
+	    font-weight: normal;
+		 font-style: normal;
+	    
+	}
+	
+	
+	.aa1, .bb1, .cc1, .dd1, .ee1 {
+		
+	    font-family: 'KOTRA_BOLD-Bold';
+/*        font-family: 'TmonMonsori';	*/
+
+	}
+
+/*===================================================================================================*/
+
+.aa1{ 
+  text-align: center;
+  background-color: green;
+  font-size: 55px;
+  margin-bottom: 50px;
+}
+
+.bb1{ 
+  background-color: yellow;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.cc1{ 
+  background-color: yellowgreen;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.dd1{ 
+  background-color: yellowgreen;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.ee1{ 
+  background-color: yellowgreen;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.ff1{ 
+  background-color: yellowgreen;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
