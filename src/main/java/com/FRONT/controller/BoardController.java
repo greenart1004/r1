@@ -50,7 +50,7 @@ public class BoardController {
 	    @PostMapping("/form")
 	    public String greetingSubmit(@ModelAttribute Board board) {
 	    	boardRepository.save(board);
-	        return "detail/detailform";
+	        return "board/detailform";
 
 	}
 
@@ -60,6 +60,6 @@ public class BoardController {
     public String detailform(Model model, @RequestParam(required=false) Long id) {
 		Board board = boardRepository.findById(id).orElse(null);
         model.addAttribute("board", board);
-        return "detail/detailform";
+        return "board/detailform";
 	}
 }

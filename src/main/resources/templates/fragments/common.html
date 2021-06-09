@@ -42,7 +42,7 @@
                 <li class="nav-item" th:classappend="${menu} == 'home'? 'active'">
                     <a class="nav-link" href="#" th:href="@{/}">Home <span class="sr-only" th:if="${menu} == 'home'">(current)</span></a>
                 </li>
-                <li class="nav-item" >
+                <!-- <li class="nav-item" >
                     <a class="nav-link" href="#" >카테고리1</a>
                 </li> 
                 <li class="nav-item" >
@@ -56,7 +56,7 @@
                 </li>  
                 <li class="nav-item" >
                     <a class="nav-link" href="#" >카테고리5</a>
-                </li>  
+                </li>   -->
                 <li class="nav-item" th:classappend="${menu} == 'board'? 'active'">
                     <a class="nav-link" href="#" th:href="@{/board/list}">게시판 <span class="sr-only" th:if="${menu} == 'board'">(current)</span></a>
                 </li> 

@@ -111,7 +111,7 @@
     font-style: normal;
 }
 
-	.aa1, .bb1, .cc1, .dd1, .ee1, .ff1 {
+	.aa1, .bb1, .bb1-1, .cc1, .dd1, .ee1, .ff1 {
 /*	  font-family: "Nanum Gothic", sans-serif;*/
 /*	  font-family: 'EliceDigitalBaeum_Bold';*/
 /*    font-family: 'Cafe24SsurroundAir';*/
@@ -124,7 +124,7 @@
 
 /* 갠찮은폰트  ==============================*/
    font-family: 'CookieRun-Regular';
-  /*    font-family: 'twayair';*/
+      font-family: 'twayair';
    /* font-family: 'RixYeoljeongdo_Regular';*/
  /*   font-family: 'ROKABold';*/
  /*font-family: 'SLEIGothicTTF';*/
@@ -140,7 +140,6 @@
 
 .aa1{ 
   text-align: center;
-
   font-size: 55px;
   margin-bottom: 50px;
 }
@@ -149,29 +148,44 @@
 /*  background-color: yellow;*/
   font-size: 25px;
   margin-bottom: 50px;
+
+}
+
+.bb1-1 { 
+    text-align: left;
+    font-size: 20px;
+}
+
+.bb1-1 span{ 
+    color: chocolate;
+}
+
+
+.bb1-2{ 
+    color: rgb(30, 72, 210);
+    text-decoration :underline;
 }
 
 .cc1{ 
-
-  font-size: 25px;
+    color: rgb(11, 15, 238);
+  font-size: 20px;
   margin-bottom: 50px;
 }
 
 .dd1{ 
-
-  font-size: 25px;
+    color: rgb(11, 15, 238);
+  font-size: 20px;
   margin-bottom: 50px;
 }
 
 .ee1{ 
-
-  font-size: 25px;
+    text-align: right;
+  font-size: 16px;
   margin-bottom: 50px;
 }
 
 .ff1{ 
-
-  font-size: 16px;
+    font-size: 16px;
   margin-bottom: 50px;
 }
 
