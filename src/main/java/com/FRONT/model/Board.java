@@ -21,20 +21,20 @@ public class Board {
 	@GeneratedValue(strategy =  GenerationType.IDENTITY)
 	private Long id;
 	
-	@Size(min=2, max=30, message = "제목은 2자이상 300자 이하입니다.")
+	@Size(min=2, max=30, message = "제목은 2자이상 30자 이하입니다.")
 	private String title;
 	
-	@Size(min=2, max=300, message = "제목은 2자이상 3000자 이하입니다.")
+	@Size(min=2, max=300, message = "제목은 2자이상 300자 이하입니다.")
 	private String content;
 	
 	
-	@Size(min=2, max=300, message = "제목은 2자이상 3000자 이하입니다.")
+	@Size(min=2, max=300, message = "제목은 2자이상 300자 이하입니다.")
 	private String content1;
-	@Size(min=2, max=300, message = "제목은 2자이상 3000자 이하입니다.")
+	@Size(min=2, max=300, message = "제목은 2자이상 300자 이하입니다.")
 	private String content2;
-	@Size(min=2, max=300, message = "제목은 2자이상 3000자 이하입니다.")
+	@Size(min=2, max=300, message = "제목은 2자이상 300자 이하입니다.")
 	private String content3;
-	@Size(min=2, max=300, message = "제목은 2자이상 3000자 이하입니다.")
+	@Size(min=2, max=300, message = "제목은 2자이상 300자 이하입니다.")
 	private String content4;
 	
 	

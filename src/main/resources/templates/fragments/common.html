@@ -10,8 +10,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	
-	<link href="/css/starter.css" th:href="@{/css/starter.css}" rel="stylesheet">
-
+    <link href="/css/starter.css" th:href="@{/css/starter.css}" rel="stylesheet">
+    <link href="/css/detailform.css" th:href="@{/css/detailform.css}" rel="stylesheet">
+       <link href="/css/index1.css" th:href="@{/css/index1.css}" rel="stylesheet">
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -41,6 +42,21 @@
                 <li class="nav-item" th:classappend="${menu} == 'home'? 'active'">
                     <a class="nav-link" href="#" th:href="@{/}">Home <span class="sr-only" th:if="${menu} == 'home'">(current)</span></a>
                 </li>
+                <li class="nav-item" >
+                    <a class="nav-link" href="#" >카테고리1</a>
+                </li> 
+                <li class="nav-item" >
+                    <a class="nav-link" href="#" >카테고리2</a>
+                </li>
+                <li class="nav-item" >
+                    <a class="nav-link" href="#" >카테고리3</a>
+                </li> 
+                <li class="nav-item" >
+                    <a class="nav-link" href="#" >카테고리4</a>
+                </li>  
+                <li class="nav-item" >
+                    <a class="nav-link" href="#" >카테고리5</a>
+                </li>  
                 <li class="nav-item" th:classappend="${menu} == 'board'? 'active'">
                     <a class="nav-link" href="#" th:href="@{/board/list}">게시판 <span class="sr-only" th:if="${menu} == 'board'">(current)</span></a>
                 </li> 

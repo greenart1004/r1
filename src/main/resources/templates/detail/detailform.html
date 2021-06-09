@@ -9,8 +9,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-   <!--  <link href="/css/text.css" th:href="@{/css/text.css}" rel="stylesheet">-->
-
+ <link href="/css/text.css" th:href="@{/css/text.css}" rel="stylesheet">
+ 
 
 
         <!-- Optional JavaScript -->
@@ -38,23 +38,136 @@
 
     	   <input type="hidden" th:field="*{id}">
 
-           <div th:text="${board.title}" class="aa1"> title </div>
+           <div th:text="${board.title}" class="aa1"> 1. 제품이름 </div>
+
+            <div th:text="${board.content}" class="bb1">2. 내용 </div>
+            
+                       
+           <section class="about">
+			    <div class="inner">
+			        <div class="about-content">
+			            <div class="photo">
+			                <a href="https://coupa.ng/b0ZJhM">
+			                    <img src="https://thumbnail10.coupangcdn.com/thumbnails/remote/212x212ex/image/retail/images/2020/08/13/15/7/d50eab3d-b5ee-47a8-b6e1-7be03e2e99a2.jpg">
+			                </a>
+			            </div>
+			            <div class="desc">
+			                <br>
+			                <h1> 3. 제품 설명  :
+			                <a href="https://coupa.ng/b0ZxSz">삼성전자 갤럭시북 플렉스 알파 노트북 NT750QCR-A38A (i3-10110U 39.6cm WIN10 Home) </h1>
+<!--			                <p>1,399,000원  (11% 세일가)  </p>--> </a>
+			            </div>
+			        </div>
+			    </div>
+			</section><br><br><br>
+			
+			
            
-           <div th:text="${board.content}" class="bb1">content </div>
+            <div th:text="${board.content1}" class="cc1 bg-primary">4. 장점 </div>
+            
+           <section class="aboutc">
+			    <div class="inner">
+			        <div class="about-content">
+			            <div class="photo">
+			                <a href="https://coupa.ng/b0ZJhM">
+			                    <img src="https://thumbnail10.coupangcdn.com/thumbnails/remote/212x212ex/image/retail/images/2020/08/13/15/7/d50eab3d-b5ee-47a8-b6e1-7be03e2e99a2.jpg">
+			                </a>
+			            </div>
+<!--			            <div class="desc">
+			                <br>
+			                <h2>삼성전자 갤럭시북 플렉스 알파 노트북 NT750QCR-A38A (i3-10110U 39.6cm WIN10 Home) </h2>
+			                <p>1,399,000원  (11% 세일가)  </p>
+			                <a href="https://coupa.ng/b0ZxSz">삼성전자 알파 노트북 </a>
+			            </div>-->
+			        </div>
+			    </div>
+			</section><br><br><br>
+			
+            
+            
            
-           <div th:text="${board.content1}" class="cc1">content1 </div>
+            <div th:text="${board.content2}" class="dd1 "> 5. 감성자극 </div>
+
+			<section class="aboutc">
+			    <div class="inner">
+			        <div class="about-content">
+			            <div class="photo">
+			                <a href="https://coupa.ng/b0ZJhM">
+			                    <img src="https://thumbnail10.coupangcdn.com/thumbnails/remote/212x212ex/image/retail/images/2020/08/13/15/7/d50eab3d-b5ee-47a8-b6e1-7be03e2e99a2.jpg">
+			                </a>
+			            </div>
+<!--			            <div class="desc">
+			                <br>
+			                <h2>삼성전자 갤럭시북 플렉스 알파 노트북 NT750QCR-A38A (i3-10110U 39.6cm WIN10 Home) </h2>
+			                <p>1,399,000원  (11% 세일가)  </p>
+			                <a href="https://coupa.ng/b0ZxSz">삼성전자 알파 노트북 </a>
+			            </div>-->
+			        </div>
+			    </div>
+			</section><br><br><br>
+
+
            
-           <div th:text="${board.content2}" class="dd1">content2 </div>
+            <div th:text="${board.content3}" class="ee1 ">6. 타제품 비교 </div>
+
+
+			<section class="aboutc">
+			    <div class="inner">
+			        <div class="about-content">
+			            <div class="photo">
+			                <a href="https://coupa.ng/b0ZJhM">
+			                    <img src="https://thumbnail10.coupangcdn.com/thumbnails/remote/212x212ex/image/retail/images/2020/08/13/15/7/d50eab3d-b5ee-47a8-b6e1-7be03e2e99a2.jpg">
+			                </a>
+			            </div>
+			            <div class="photo">
+			                <a href="https://coupa.ng/b0ZJhM">
+			                    <img src="https://thumbnail10.coupangcdn.com/thumbnails/remote/212x212ex/image/retail/images/2020/08/13/15/7/d50eab3d-b5ee-47a8-b6e1-7be03e2e99a2.jpg">
+			                </a>
+			            </div>
+			        </div>
+			    </div>
+			</section><br>
            
-           <div th:text="${board.content3}" class="ee1">content3 </div>
+
+
+			<figure class="figure">
+				<img src="/img/salex.jpg" class="figure-img img-fluid rounded" alt="...">
+				<!-- <figcaption class="figure-caption">A caption for the above image.</figcaption> -->
+			</figure><br>
+
+
+
+
+
+
+            <div th:text="${board.content4}" class="ff1 "> 7. 기타 </div>
            
-           <div th:text="${board.content4}" class="ff1">content4 </div>
-           
-		    <div class="text-right">
+		     <div class="text-right">
 	            <a type="button" class="btn btn-primary"  th:href="@{/board/form(id=${board.id})}">수정하기</a>
-	        </div>  
+   	     		<a type="button" class="btn btn-primary"  th:href="@{/board/list}">리스트</a>
+	         </div>  
 		</form>
+		
     </div>
+
+<div id="footer" class="mt-5" role="footer">
+    <div class="footer">
+        <ul>
+            <li>
+                Copyright&copy; BulingZ.co.kr All Right Reserved
+            </li>
+<!--            <li>
+                <img src="img/bb.jpg" class="circle img-fluid border">                    
+            </li>
+            <li>
+                <img src="img/aa.jpg" class="circle img-fluid border">                    
+            </li>-->
+        </ul>
+    </div>
+</div>
+
+
+
 
 
 </body>
