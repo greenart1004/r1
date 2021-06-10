@@ -158,12 +158,20 @@
 
 .bb1-1 span{ 
     color: chocolate;
+    margin-bottom: 50px;
 }
 
 
 .bb1-2{ 
     color: rgb(30, 72, 210);
     text-decoration :underline;
+
+}
+
+.bb1-3{ 
+
+       text-align: center;
+           margin-bottom: 50px;
 }
 
 .cc1{ 
